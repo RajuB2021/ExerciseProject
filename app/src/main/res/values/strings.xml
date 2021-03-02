@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exercise</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="submit">Submit</string>
+    <string name="firs_name_error_title">First name is not valid</string>
+    <string name="firs_name_error_message">First name should contain only alphabets,please correct it and try again</string>
+    <string name="last_name_error_title">Last name is not valid</string>
+    <string name="last_name_error_message">Last name should contain only alphabets,please correct it and try again </string>
+    <string name="network_connection_error_title">No Internet Connection </string>
+    <string name="network_connection_error_message">Please check your internet connection and try again </string>
+    <string name="http_error">http_error</string>
+    <string name="error">Error</string>
+</resources>

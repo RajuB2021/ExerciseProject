@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="My.TextInputLayout.FilledBox.Padding" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/MyThemeOverlayFilledPadding</item>
+    </style>
+
+    <style name="MyThemeOverlayFilledPadding">
+        <item name="editTextStyle">@style/MyTextInputEditText_filledBox_padding</item>
+    </style>
+
+    <style name="MyTextInputEditText_filledBox_padding" parent="@style/Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+</resources>
